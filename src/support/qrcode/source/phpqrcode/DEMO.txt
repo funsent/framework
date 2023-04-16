@@ -1,0 +1,11 @@
+<?php  
+
+include "./phpqrcode.php";
+
+$data='°æÈ¨ËùÓÐ£ºhttp://www.daimajiayuan.com/';
+
+$errorCorrectionLevel="L";
+
+$matrixPointSize="4";
+
+QRcode::png($data,false,$errorCorrectionLevel,$matrixPointSize); 
